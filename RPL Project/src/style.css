@@ -1,0 +1,507 @@
+.velvet-whisk {
+    position: relative;
+    white-space: nowrap;
+  }
+  .home {
+    position: relative;
+    display: inline-block;
+    min-width: 4.563rem;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.5rem 0 0;
+  }
+  .about {
+    position: relative;
+    display: inline-block;
+    min-width: 4.563rem;
+  }
+  .login-form1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .product {
+    position: relative;
+    display: inline-block;
+    min-width: 5.813rem;
+  }
+  .velvet-whisk-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-12xs) 0 0;
+  }
+  .package {
+    position: relative;
+    display: inline-block;
+    min-width: 5.875rem;
+  }
+  .velvet-whisk-subtitle-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .body {
+    width: 15.875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.313rem 0.625rem 0 0;
+    box-sizing: border-box;
+  }
+  .mdicart-outline-icon {
+    height: 1.75rem;
+    width: 1.75rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .cart {
+    position: relative;
+    display: inline-block;
+    min-width: 3.063rem;
+  }
+  .ini-adalah-bites-of-happiness {
+    flex-direction: column;
+    padding: var(--padding-10xs) 0 0;
+  }
+  .cart-indicator,
+  .ini-adalah-bites-of-happiness,
+  .login-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-button {
+    flex: 1;
+    flex-direction: row;
+    gap: 0.25rem;
+  }
+  .cart-indicator {
+    height: 2.375rem;
+    flex-direction: column;
+    padding: var(--padding-7xs) 2.25rem 0 0;
+    box-sizing: border-box;
+  }
+  .frame-child {
+    height: 2.688rem;
+    width: 11rem;
+    position: relative;
+    border-radius: var(--br-mini);
+    background-color: var(--color-darksalmon-100);
+    display: none;
+  }
+  .login {
+    position: relative;
+    font-size: var(--font-size-7xl);
+    font-family: var(--font-quattrocento);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 4.063rem;
+    z-index: 1;
+  }
+  .cart-icon,
+  .rectangle-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0.438rem 3.313rem;
+    background-color: var(--color-darksalmon-100);
+    width: 11rem;
+    border-radius: var(--br-mini);
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangle-group:hover,
+  .rectangle-parent:hover {
+    background-color: var(--color-darksalmon-200);
+  }
+  .cart-icon {
+    align-self: stretch;
+    justify-content: space-between;
+    padding: 0 var(--padding-12xs) 0 0;
+    gap: var(--gap-xl);
+  }
+  .package-name,
+  .velvet-whisk-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .package-name {
+    width: 56.625rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-7xl);
+    color: var(--color-black);
+    font-family: var(--font-quattrocento);
+  }
+  .velvet-whisk-parent {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frame-item,
+  .frame-wrapper {
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+  .frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 3.688rem 0 3.875rem;
+    max-width: 100%;
+  }
+  .frame-item {
+    height: 0.053rem;
+    position: relative;
+    border-top: 1px solid var(--color-black);
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 1.938rem;
+    max-width: 100%;
+    text-align: left;
+    font-size: 2rem;
+    color: var(--color-crimson-100);
+    font-family: var(--font-inria-serif);
+  }
+  .landing-page-opsi-2-child {
+    width: 14.063rem;
+    height: 3.625rem;
+    border-radius: var(--br-3xs);
+    border: 3px solid var(--color-darksalmon-100);
+    box-sizing: border-box;
+  }
+  .landing-page-opsi-2-child,
+  .lihat-lainnya {
+    position: relative;
+    display: none;
+  }
+  .roti-kami-bukan {
+    margin: 0;
+    align-self: stretch;
+    height: 12.188rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+  .ini-adalah-bites-of {
+    height: 5.25rem;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .frame-inner {
+    position: absolute;
+    top: 20.856rem;
+    left: -0.062rem;
+    width: 45.563rem;
+    height: 8.813rem;
+  }
+  .pinterest-1-icon {
+    position: absolute;
+    top: -3rem;
+    left: -3.587rem;
+    width: 48.9rem;
+    height: 46.138rem;
+    object-fit: contain;
+    z-index: 2;
+  }
+  .vector-parent {
+    height: 29.419rem;
+    width: 45.5rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: -26.687rem;
+    left: -5.5rem;
+  }
+  .button-order-now {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+  }
+  .button-order-now-wrapper,
+  .roti-kami-bukan-sekedar-roti-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .button-order-now-wrapper {
+    flex-direction: row;
+    padding: 0 var(--padding-mini) 0 var(--padding-7xs);
+    box-sizing: border-box;
+    font-size: 2rem;
+    font-family: var(--font-quattrocento);
+  }
+  .roti-kami-bukan-sekedar-roti-parent {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .rectangle-div {
+    height: 3.625rem;
+    width: 14.125rem;
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-darksalmon-100);
+    display: none;
+  }
+  .order-now {
+    position: relative;
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-inter);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 7.063rem;
+    z-index: 1;
+  }
+  .quillarrow-up-icon {
+    height: 1.75rem;
+    width: 1.75rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    min-height: 1.75rem;
+    z-index: 1;
+  }
+  .frame-container,
+  .frame-div,
+  .rectangle-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mini) 1.313rem;
+    background-color: var(--color-darksalmon-100);
+    width: 14.125rem;
+    height: 3.625rem;
+    border-radius: var(--br-3xs);
+    flex-direction: row;
+    box-sizing: border-box;
+    gap: 1.75rem;
+    white-space: nowrap;
+  }
+  .frame-container,
+  .frame-div {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  .frame-div {
+    align-self: stretch;
+    gap: 1.375rem;
+  }
+  .frame-container {
+    flex: 1;
+    padding: 6.188rem 0 0;
+    box-sizing: border-box;
+    min-width: 28.125rem;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3,
+  .remove-background {
+    position: absolute;
+    border-radius: var(--br-xl);
+    transform: rotate(10.2deg);
+    transform-origin: 0 0;
+  }
+  .remove-background {
+    top: 1.499rem;
+    left: 2.287rem;
+    background-color: var(--color-crimson-100);
+    width: 12.944rem;
+    height: 12.913rem;
+  }
+  .frame-child1,
+  .frame-child2,
+  .frame-child3 {
+    width: 16.788rem;
+    height: 15.825rem;
+  }
+  .frame-child1 {
+    top: 22.027rem;
+    left: 11.959rem;
+    background-color: var(--color-crimson-100);
+  }
+  .frame-child2,
+  .frame-child3 {
+    top: 4.227rem;
+    left: 16.084rem;
+    background-color: rgba(212, 46, 46, 0.1);
+    z-index: 1;
+  }
+  .frame-child3 {
+    top: 5.65rem;
+    left: 9.141rem;
+    background-color: rgba(53, 41, 11, 0.25);
+    width: 19.819rem;
+    height: 24.431rem;
+    transform: rotate(12.9deg);
+    z-index: 2;
+  }
+  .bba61b-137f-4a25-aa76-dbd18f38-icon {
+    position: absolute;
+    top: 0;
+    left: 4.306rem;
+    width: 24.413rem;
+    height: 34.906rem;
+    object-fit: cover;
+    z-index: 3;
+  }
+  .remove-background-parent {
+    height: 40.563rem;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .frame-group,
+  .group-div {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .group-div {
+    width: 32.875rem;
+    min-width: 32.875rem;
+  }
+  .frame-group {
+    width: 79.063rem;
+    gap: 2.875rem;
+  }
+  .landing-page-opsi-2,
+  .landing-page-opsi-2-inner {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+    text-align: left;
+    color: var(--color-black);
+  }
+  .landing-page-opsi-2-inner {
+    width: 89.313rem;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 1.25rem;
+    max-width: 100%;
+    font-size: 6rem;
+    font-family: var(--font-libre-caslon-display);
+  }
+  .landing-page-opsi-2 {
+    width: 100%;
+    position: relative;
+    background-color: #f6f6f6;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2.438rem 0 11.75rem;
+    gap: 4.375rem;
+    letter-spacing: normal;
+    font-size: var(--font-size-3xl);
+    font-family: var(--font-inter);
+  }
+  @media screen and (max-width: 1125px) {
+    .velvet-whisk-subtitle-parent {
+      display: none;
+    }
+    .body {
+      width: 0.625rem;
+    }
+    .group-div {
+      flex: 1;
+    }
+    .frame-group {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 1025px) {
+    .roti-kami-bukan {
+      font-size: 3rem;
+    }
+    .ini-adalah-bites-of {
+      font-size: var(--font-size-7xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .frame-wrapper {
+      padding-left: 1.938rem;
+      padding-right: 1.813rem;
+      box-sizing: border-box;
+    }
+    .frame-parent {
+      gap: 0.938rem 1.938rem;
+    }
+    .roti-kami-bukan-sekedar-roti-parent {
+      gap: 1rem 2rem;
+    }
+    .frame-container {
+      padding-top: 4rem;
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .group-div {
+      min-width: 100%;
+    }
+    .frame-group {
+      gap: 2.875rem 1.438rem;
+    }
+    .landing-page-opsi-2 {
+      gap: 2.188rem 4.375rem;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .lihat-lainnya {
+      font-size: 1.125rem;
+    }
+    .roti-kami-bukan {
+      font-size: 1.813rem;
+    }
+    .ini-adalah-bites-of {
+      font-size: 1.188rem;
+    }
+    .landing-page-opsi-2 {
+      gap: 1.063rem 4.375rem;
+    }
+  }
+  
